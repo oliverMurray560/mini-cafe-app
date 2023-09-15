@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C31803B2AB49F4D00FA0765 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C31803A2AB49F4D00FA0765 /* AppDelegate.swift */; };
+		4C31803D2AB49F4D00FA0765 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C31803C2AB49F4D00FA0765 /* SceneDelegate.swift */; };
+		4C31803F2AB49F4D00FA0765 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C31803E2AB49F4D00FA0765 /* ViewController.swift */; };
+		4C3180422AB49F4D00FA0765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3180402AB49F4D00FA0765 /* Main.storyboard */; };
+		4C3180452AB49F4D00FA0765 /* mini_cafe_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C3180432AB49F4D00FA0765 /* mini_cafe_app.xcdatamodeld */; };
+		4C3180472AB49F4E00FA0765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3180462AB49F4E00FA0765 /* Assets.xcassets */; };
+		4C31804A2AB49F4E00FA0765 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3180482AB49F4E00FA0765 /* LaunchScreen.storyboard */; };
+		4C3180552AB49F4F00FA0765 /* mini_cafe_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3180542AB49F4F00FA0765 /* mini_cafe_appTests.swift */; };
+		4C31805F2AB49F4F00FA0765 /* mini_cafe_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C31805E2AB49F4F00FA0765 /* mini_cafe_appUITests.swift */; };
+		4C3180612AB49F4F00FA0765 /* mini_cafe_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3180602AB49F4F00FA0765 /* mini_cafe_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C3180512AB49F4E00FA0765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C31802F2AB49F4C00FA0765 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C3180362AB49F4C00FA0765;
+			remoteInfo = "mini cafe app";
+		};
+		4C31805B2AB49F4F00FA0765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C31802F2AB49F4C00FA0765 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C3180362AB49F4C00FA0765;
+			remoteInfo = "mini cafe app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C3180372AB49F4D00FA0765 /* mini cafe app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mini cafe app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C31803A2AB49F4D00FA0765 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C31803C2AB49F4D00FA0765 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4C31803E2AB49F4D00FA0765 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C3180412AB49F4D00FA0765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C3180442AB49F4D00FA0765 /* mini_cafe_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mini_cafe_app.xcdatamodel; sourceTree = "<group>"; };
+		4C3180462AB49F4E00FA0765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C3180492AB49F4E00FA0765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C31804B2AB49F4E00FA0765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3180502AB49F4E00FA0765 /* mini cafe appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mini cafe appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3180542AB49F4F00FA0765 /* mini_cafe_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mini_cafe_appTests.swift; sourceTree = "<group>"; };
+		4C31805A2AB49F4F00FA0765 /* mini cafe appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mini cafe appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C31805E2AB49F4F00FA0765 /* mini_cafe_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mini_cafe_appUITests.swift; sourceTree = "<group>"; };
+		4C3180602AB49F4F00FA0765 /* mini_cafe_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mini_cafe_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C3180342AB49F4C00FA0765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C31804D2AB49F4E00FA0765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3180572AB49F4F00FA0765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C31802E2AB49F4C00FA0765 = {
+			isa = PBXGroup;
+			children = (
+				4C3180392AB49F4D00FA0765 /* mini cafe app */,
+				4C3180532AB49F4F00FA0765 /* mini cafe appTests */,
+				4C31805D2AB49F4F00FA0765 /* mini cafe appUITests */,
+				4C3180382AB49F4D00FA0765 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C3180382AB49F4D00FA0765 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C3180372AB49F4D00FA0765 /* mini cafe app.app */,
+				4C3180502AB49F4E00FA0765 /* mini cafe appTests.xctest */,
+				4C31805A2AB49F4F00FA0765 /* mini cafe appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C3180392AB49F4D00FA0765 /* mini cafe app */ = {
+			isa = PBXGroup;
+			children = (
+				4C31803A2AB49F4D00FA0765 /* AppDelegate.swift */,
+				4C31803C2AB49F4D00FA0765 /* SceneDelegate.swift */,
+				4C31803E2AB49F4D00FA0765 /* ViewController.swift */,
+				4C3180402AB49F4D00FA0765 /* Main.storyboard */,
+				4C3180462AB49F4E00FA0765 /* Assets.xcassets */,
+				4C3180482AB49F4E00FA0765 /* LaunchScreen.storyboard */,
+				4C31804B2AB49F4E00FA0765 /* Info.plist */,
+				4C3180432AB49F4D00FA0765 /* mini_cafe_app.xcdatamodeld */,
+			);
+			path = "mini cafe app";
+			sourceTree = "<group>";
+		};
+		4C3180532AB49F4F00FA0765 /* mini cafe appTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C3180542AB49F4F00FA0765 /* mini_cafe_appTests.swift */,
+			);
+			path = "mini cafe appTests";
+			sourceTree = "<group>";
+		};
+		4C31805D2AB49F4F00FA0765 /* mini cafe appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C31805E2AB49F4F00FA0765 /* mini_cafe_appUITests.swift */,
+				4C3180602AB49F4F00FA0765 /* mini_cafe_appUITestsLaunchTests.swift */,
+			);
+			path = "mini cafe appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C3180362AB49F4C00FA0765 /* mini cafe app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3180642AB49F4F00FA0765 /* Build configuration list for PBXNativeTarget "mini cafe app" */;
+			buildPhases = (
+				4C3180332AB49F4C00FA0765 /* Sources */,
+				4C3180342AB49F4C00FA0765 /* Frameworks */,
+				4C3180352AB49F4C00FA0765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mini cafe app";
+			productName = "mini cafe app";
+			productReference = 4C3180372AB49F4D00FA0765 /* mini cafe app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C31804F2AB49F4E00FA0765 /* mini cafe appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3180672AB49F4F00FA0765 /* Build configuration list for PBXNativeTarget "mini cafe appTests" */;
+			buildPhases = (
+				4C31804C2AB49F4E00FA0765 /* Sources */,
+				4C31804D2AB49F4E00FA0765 /* Frameworks */,
+				4C31804E2AB49F4E00FA0765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C3180522AB49F4E00FA0765 /* PBXTargetDependency */,
+			);
+			name = "mini cafe appTests";
+			productName = "mini cafe appTests";
+			productReference = 4C3180502AB49F4E00FA0765 /* mini cafe appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C3180592AB49F4F00FA0765 /* mini cafe appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C31806A2AB49F4F00FA0765 /* Build configuration list for PBXNativeTarget "mini cafe appUITests" */;
+			buildPhases = (
+				4C3180562AB49F4F00FA0765 /* Sources */,
+				4C3180572AB49F4F00FA0765 /* Frameworks */,
+				4C3180582AB49F4F00FA0765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C31805C2AB49F4F00FA0765 /* PBXTargetDependency */,
+			);
+			name = "mini cafe appUITests";
+			productName = "mini cafe appUITests";
+			productReference = 4C31805A2AB49F4F00FA0765 /* mini cafe appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C31802F2AB49F4C00FA0765 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4C3180362AB49F4C00FA0765 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					4C31804F2AB49F4E00FA0765 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4C3180362AB49F4C00FA0765;
+					};
+					4C3180592AB49F4F00FA0765 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4C3180362AB49F4C00FA0765;
+					};
+				};
+			};
+			buildConfigurationList = 4C3180322AB49F4C00FA0765 /* Build configuration list for PBXProject "mini cafe app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C31802E2AB49F4C00FA0765;
+			productRefGroup = 4C3180382AB49F4D00FA0765 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C3180362AB49F4C00FA0765 /* mini cafe app */,
+				4C31804F2AB49F4E00FA0765 /* mini cafe appTests */,
+				4C3180592AB49F4F00FA0765 /* mini cafe appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C3180352AB49F4C00FA0765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C31804A2AB49F4E00FA0765 /* LaunchScreen.storyboard in Resources */,
+				4C3180472AB49F4E00FA0765 /* Assets.xcassets in Resources */,
+				4C3180422AB49F4D00FA0765 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C31804E2AB49F4E00FA0765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3180582AB49F4F00FA0765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C3180332AB49F4C00FA0765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C31803F2AB49F4D00FA0765 /* ViewController.swift in Sources */,
+				4C3180452AB49F4D00FA0765 /* mini_cafe_app.xcdatamodeld in Sources */,
+				4C31803B2AB49F4D00FA0765 /* AppDelegate.swift in Sources */,
+				4C31803D2AB49F4D00FA0765 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C31804C2AB49F4E00FA0765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3180552AB49F4F00FA0765 /* mini_cafe_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3180562AB49F4F00FA0765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3180612AB49F4F00FA0765 /* mini_cafe_appUITestsLaunchTests.swift in Sources */,
+				4C31805F2AB49F4F00FA0765 /* mini_cafe_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C3180522AB49F4E00FA0765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C3180362AB49F4C00FA0765 /* mini cafe app */;
+			targetProxy = 4C3180512AB49F4E00FA0765 /* PBXContainerItemProxy */;
+		};
+		4C31805C2AB49F4F00FA0765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C3180362AB49F4C00FA0765 /* mini cafe app */;
+			targetProxy = 4C31805B2AB49F4F00FA0765 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C3180402AB49F4D00FA0765 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C3180412AB49F4D00FA0765 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C3180482AB49F4E00FA0765 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C3180492AB49F4E00FA0765 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C3180622AB49F4F00FA0765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C3180632AB49F4F00FA0765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C3180652AB49F4F00FA0765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35JGHH6ZTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "mini cafe app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.mini-cafe-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C3180662AB49F4F00FA0765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35JGHH6ZTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "mini cafe app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.mini-cafe-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C3180682AB49F4F00FA0765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35JGHH6ZTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.mini-cafe-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mini cafe app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mini cafe app";
+			};
+			name = Debug;
+		};
+		4C3180692AB49F4F00FA0765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35JGHH6ZTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.mini-cafe-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mini cafe app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mini cafe app";
+			};
+			name = Release;
+		};
+		4C31806B2AB49F4F00FA0765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35JGHH6ZTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.mini-cafe-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mini cafe app";
+			};
+			name = Debug;
+		};
+		4C31806C2AB49F4F00FA0765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35JGHH6ZTT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clc.mini-cafe-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mini cafe app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C3180322AB49F4C00FA0765 /* Build configuration list for PBXProject "mini cafe app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3180622AB49F4F00FA0765 /* Debug */,
+				4C3180632AB49F4F00FA0765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C3180642AB49F4F00FA0765 /* Build configuration list for PBXNativeTarget "mini cafe app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3180652AB49F4F00FA0765 /* Debug */,
+				4C3180662AB49F4F00FA0765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C3180672AB49F4F00FA0765 /* Build configuration list for PBXNativeTarget "mini cafe appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3180682AB49F4F00FA0765 /* Debug */,
+				4C3180692AB49F4F00FA0765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C31806A2AB49F4F00FA0765 /* Build configuration list for PBXNativeTarget "mini cafe appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C31806B2AB49F4F00FA0765 /* Debug */,
+				4C31806C2AB49F4F00FA0765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4C3180432AB49F4D00FA0765 /* mini_cafe_app.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C3180442AB49F4D00FA0765 /* mini_cafe_app.xcdatamodel */,
+			);
+			currentVersion = 4C3180442AB49F4D00FA0765 /* mini_cafe_app.xcdatamodel */;
+			path = mini_cafe_app.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4C31802F2AB49F4C00FA0765 /* Project object */;
+}
